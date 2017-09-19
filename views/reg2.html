@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>reg2rails</title>
+</head>
+<body>
+      <html>
+    
+    
+    <head>
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+<!--
+  <link rel="stylesheet" type="text/css" href="/css/regstyle.css">
+ // <script type="text/javascript" src="/js/regvalidations.js"></script>
+-->
+</head>
+
+<body>  <div class="col-md-offset-2 col-md-6">    
+
+    <div class="container"><div class="" style="width:500px">
+ <h4>Rails REGISTRATION2</h4> <a href="/login">login page</a> <a href="/">homepage</a>
+    <form name="regform" method="post" action="/activator" >
+               
+        <div class="form-group">
+        <!-- <label>username:</label> -->
+         <input type="text" class="form-control" value="<%=token%>" placeholder="username" name="token"></div>
+<div><%= token %></div>
+            <div class="form-group">
+        <label>password:</label>
+         <input type="password" class="form-control" placeholder="password" name="password"></div>
+         <div class="form-group">
+          <label>re-enter password:</label>
+         <input type="password" class="form-control" placeholder="re-enter password" name="re-enter password"></div>
+
+            <div class="form-group">
+            <label>type:</label>
+               <select name="type">
+                   <option value="1" name="applicant">1.applicant</option>
+                   <option value="2" name="employer">2.employer</option>
+               </select>
+            </div>
+        
+        
+        <div class="form-group">
+           <label>Agree to Terms</label>
+           <input type="checkbox" class=""  name="agree">I agree to the terms and conditions</div>
+        
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary" onclick="">Submit</button></div>
+    
+    
+    
+    </form>
+        </div></div></div>
+</body>
+</html>
+</body>
+</html>

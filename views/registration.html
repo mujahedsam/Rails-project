@@ -1,0 +1,59 @@
+<html>
+    
+    
+    <head>
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+<!--
+  <link rel="stylesheet" type="text/css" href="/css/regstyle.css">
+ // <script type="text/javascript" src="/js/regvalidations.js"></script>
+-->
+</head>
+
+<body>  <div class="col-md-offset-2 col-md-6">    
+
+    <div class="container"><div class="" style="width:500px">
+ <h4>Rails REGISTRATION</h4> <a href="/login">login page</a> <a href="/">homepage</a>
+    <form name="regform" method="post" action="/registration">
+               
+        <div class="form-group">
+        <label>username:</label>
+        <input type="text" class="form-control" placeholder="username" name="username"></div>
+        
+        <div class="form-group">
+        <label>email</label>
+            <input type="text" class="form-control" placeholder="email" name="email"><br></div>
+             <h6>OR</h6>
+        <div class="form-group">
+        <label>mobileno</label>
+        <input type="text" class="form-control" placeholder="mobileno" name="mobileno"><br></div>
+
+            <div class="form-group">
+            <label>type:</label>
+               <select name="type">
+                   <option value="1" name="applicant">1.applicant</option>
+                   <option value="2" name="employer">2.employer</option>
+               </select>
+            </div>
+        
+        <div class="form-group">
+        <label>address</label>
+        <input type="text" class="form-control" placeholder="address" name="address"><br></div>
+
+
+        <h5>select the user verification type </h5>
+  <input type="radio" name="contacttype" value="ct1" checked> verify through email<br>
+ <input type="radio" name="contacttype" value="ct2"> verify through mobileno by otp<br>
+
+        <div class="form-group">
+           <label>Agree to Terms</label>
+           <input type="checkbox" class=""  name="agree">I agree to the terms and conditions</div>
+        
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary" onclick="">Submit</button></div>
+    
+    
+    
+    </form>
+        </div></div></div>
+</body>
+</html>

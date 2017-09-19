@@ -1,0 +1,71 @@
+.margintop30{
+  margin-top: 30px;
+}
+.regstyle{
+	text-align: center;
+	font-style: sans-serif;
+	font-size: 14px;
+	color: red;
+}
+hr{
+	border-color: blue;
+}
+
+ #timelinetext{
+
+       text-align: center;
+
+}
+#header{
+	position: fixed;
+}
+
+/* footer css */
+.FooterNav{
+    position: fixed;
+    padding: 16px;
+    border-top: 1px solid #e2e2e2;
+          background: #f7f7f7;
+                top: 93%; width: 100%;
+}
+
+
+.FooterNav .nav_list{
+    text-align: center;
+}
+
+ul,ol{
+    
+    list-style-type: none;
+}
+
+.FooterNav .nav_list li {
+
+display: inline-block;
+margin-right: 10px;
+
+
+}
+
+ .FooterNav .nav_list li a {
+     color: black;
+     }
+   a {
+     text-decoration: none;
+      color: #2b6dad;
+           }
+
+
+   #footer{
+   	position: fixed;
+   }        
+
+
+
+   #loginform{
+      margin-top: 50px;
+   }
+   #loginpara{
+    margin-left: 20px;
+   }
+
